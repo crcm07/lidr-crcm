@@ -1,0 +1,29 @@
+[project]
+name = "estimator-cag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "CARLOS ROBERTO CARRILLO MUNDO", email = "159469740+crcm07@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.84.0",
+    "fastapi>=0.159.1",
+    "openai>=3.36.1",
+    "pydantic-settings>=2.13.1",
+    "python-dotenv>=1.2.4",
+    "structlog>=25.5.0",
+    "uvicorn[standard]>=0.41.0",
+]
+
+[project.scripts]
+estimator-cag = "app:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "app"
+module-root = "."

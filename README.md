@@ -1,2 +1,1 @@
-# lidr-crcm
-Formación IA Engineer
+Estimador CAG (Causal Analysis Graph) es una herramienta de análisis causal que permite a los investigadores y analistas modelar y evaluar relaciones causales entre variables. Utilizando gráficos dirigidos acíclicos (DAGs), el estimador CAG ayuda a identificar efectos causales, controlar confusores y realizar inferencias sobre intervenciones.
